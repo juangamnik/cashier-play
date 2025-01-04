@@ -1,0 +1,802 @@
+[
+  {
+    "category": "Tools",
+    "items": [
+      {
+        "name": "Screwdriver Set",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Hammer",
+        "price": 7.49,
+        "vat": "A"
+      },
+      {
+        "name": "Adjustable Wrench",
+        "price": 6.99,
+        "vat": "A"
+      },
+      {
+        "name": "Tape Measure",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Level Tool",
+        "price": 5.49,
+        "vat": "A"
+      },
+      {
+        "name": "Utility Knife",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Plier Set",
+        "price": 6.49,
+        "vat": "A"
+      },
+      {
+        "name": "Socket Wrench",
+        "price": 7.99,
+        "vat": "A"
+      },
+      {
+        "name": "Chisel",
+        "price": 4.49,
+        "vat": "A"
+      },
+      {
+        "name": "Hacksaw",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Paint Brush",
+        "price": 1.49,
+        "vat": "A"
+      },
+      {
+        "name": "Sandpaper Pack",
+        "price": 2.79,
+        "vat": "A"
+      },
+      {
+        "name": "Putty Knife",
+        "price": 3.19,
+        "vat": "A"
+      },
+      {
+        "name": "Allen Key Set",
+        "price": 3.89,
+        "vat": "A"
+      },
+      {
+        "name": "Stubby Claw Hammer",
+        "price": 6.39,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Gardening Supplies",
+    "items": [
+      {
+        "name": "Garden Trowel",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Set of Plant Labels",
+        "price": 1.29,
+        "vat": "B"
+      },
+      {
+        "name": "Seed Pack - Mixed Flowers",
+        "price": 1.49,
+        "vat": "A"
+      },
+      {
+        "name": "Garden Gloves",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Plant Watering Spike",
+        "price": 1.79,
+        "vat": "B"
+      },
+      {
+        "name": "Potted Plant Saucer",
+        "price": 0.89,
+        "vat": "C"
+      },
+      {
+        "name": "Garden Pruner",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Herb Seed Packet",
+        "price": 0.99,
+        "vat": "B"
+      },
+      {
+        "name": "Garden Twine",
+        "price": 1.69,
+        "vat": "A"
+      },
+      {
+        "name": "Soil pH Test Kit",
+        "price": 4.49,
+        "vat": "B"
+      },
+      {
+        "name": "Plant Support Stick",
+        "price": 0.59,
+        "vat": "C"
+      },
+      {
+        "name": "Garden Rake",
+        "price": 6.49,
+        "vat": "A"
+      },
+      {
+        "name": "Compostable Plant Pots",
+        "price": 3.49,
+        "vat": "B"
+      },
+      {
+        "name": "Seed Starter Tray",
+        "price": 2.79,
+        "vat": "A"
+      },
+      {
+        "name": "Watering Can",
+        "price": 5.49,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Building Materials",
+    "items": [
+      {
+        "name": "Wood Screws Pack",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Plastic Wall Plugs",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Masonry Nails",
+        "price": 3.20,
+        "vat": "A"
+      },
+      {
+        "name": "Adhesive Tape",
+        "price": 1.20,
+        "vat": "B"
+      },
+      {
+        "name": "Sandpaper Sheets",
+        "price": 2.10,
+        "vat": "A"
+      },
+      {
+        "name": "Plastic Sheeting",
+        "price": 2.89,
+        "vat": "B"
+      },
+      {
+        "name": "Wall Primer Sample",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Tile Spacers",
+        "price": 1.75,
+        "vat": "A"
+      },
+      {
+        "name": "Metal Brackets",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Wood Glue",
+        "price": 1.99,
+        "vat": "B"
+      },
+      {
+        "name": "Carpenter's Pencil",
+        "price": 0.99,
+        "vat": "C"
+      },
+      {
+        "name": "Hanging Hooks",
+        "price": 2.50,
+        "vat": "A"
+      },
+      {
+        "name": "Filler Paste",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Insulating Tape",
+        "price": 2.40,
+        "vat": "A"
+      },
+      {
+        "name": "Metal Ruler",
+        "price": 1.25,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Paints & Finishes",
+    "items": [
+      {
+        "name": "Basic Acrylic Paint White",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Matte Spray Paint Black",
+        "price": 9.49,
+        "vat": "A"
+      },
+      {
+        "name": "Water-Based Varnish Clear",
+        "price": 8.75,
+        "vat": "A"
+      },
+      {
+        "name": "Wood Stain Light Oak",
+        "price": 6.20,
+        "vat": "B"
+      },
+      {
+        "name": "Metal Primer Grey",
+        "price": 7.99,
+        "vat": "A"
+      },
+      {
+        "name": "Chalk Finish Paint Pastel Blue",
+        "price": 5.50,
+        "vat": "A"
+      },
+      {
+        "name": "Quick-Dry Enamel Paint Red",
+        "price": 8.30,
+        "vat": "A"
+      },
+      {
+        "name": "Textured Paint Sand",
+        "price": 10.00,
+        "vat": "B"
+      },
+      {
+        "name": "Anti-Rust Coating",
+        "price": 9.99,
+        "vat": "A"
+      },
+      {
+        "name": "Basic Wall Primer",
+        "price": 6.79,
+        "vat": "B"
+      },
+      {
+        "name": "Gloss Finish Lacquer",
+        "price": 7.50,
+        "vat": "A"
+      },
+      {
+        "name": "Eco-Friendly Paint Remover",
+        "price": 9.25,
+        "vat": "A"
+      },
+      {
+        "name": "Water Repellent Coating",
+        "price": 8.99,
+        "vat": "A"
+      },
+      {
+        "name": "Emulsion Paint Light Green",
+        "price": 7.75,
+        "vat": "B"
+      },
+      {
+        "name": "Surface Sealer",
+        "price": 6.30,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Plumbing Essentials",
+    "items": [
+      {
+        "name": "PVC Pipe 1m",
+        "price": 3.5,
+        "vat": "A"
+      },
+      {
+        "name": "Pipe Connector",
+        "price": 1.2,
+        "vat": "B"
+      },
+      {
+        "name": "Rubber Washer Set",
+        "price": 2.0,
+        "vat": "A"
+      },
+      {
+        "name": "Plumber's Tape",
+        "price": 0.8,
+        "vat": "C"
+      },
+      {
+        "name": "Faucet Handle",
+        "price": 4.0,
+        "vat": "A"
+      },
+      {
+        "name": "Drain Snake",
+        "price": 5.5,
+        "vat": "B"
+      },
+      {
+        "name": "Pipe Insulation Wrap",
+        "price": 1.5,
+        "vat": "A"
+      },
+      {
+        "name": "Sink Strainer",
+        "price": 2.5,
+        "vat": "C"
+      },
+      {
+        "name": "Toilet Flapper",
+        "price": 3.0,
+        "vat": "B"
+      },
+      {
+        "name": "Sealant Tube",
+        "price": 3.8,
+        "vat": "A"
+      },
+      {
+        "name": "Shower Hose",
+        "price": 6.0,
+        "vat": "B"
+      },
+      {
+        "name": "Copper Fittings Pack",
+        "price": 3.5,
+        "vat": "A"
+      },
+      {
+        "name": "Water Supply Line",
+        "price": 2.8,
+        "vat": "C"
+      },
+      {
+        "name": "Flexible Drain Pipe",
+        "price": 4.5,
+        "vat": "B"
+      },
+      {
+        "name": "Pipe Cutter",
+        "price": 5.0,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Electrical Supplies",
+    "items": [
+      {
+        "name": "LED Bulb",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "Extension Cord",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Light Switch",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Electrical Tape",
+        "price": 1.29,
+        "vat": "A"
+      },
+      {
+        "name": "Plug Adapter",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Power Strip",
+        "price": 6.99,
+        "vat": "A"
+      },
+      {
+        "name": "Cable Clips",
+        "price": 1.79,
+        "vat": "A"
+      },
+      {
+        "name": "Wire Connectors",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Battery Pack",
+        "price": 5.49,
+        "vat": "B"
+      },
+      {
+        "name": "Digital Timer",
+        "price": 7.99,
+        "vat": "A"
+      },
+      {
+        "name": "Circuit Breaker",
+        "price": 4.59,
+        "vat": "A"
+      },
+      {
+        "name": "Cable Ties",
+        "price": 0.99,
+        "vat": "A"
+      },
+      {
+        "name": "Fuse",
+        "price": 0.59,
+        "vat": "A"
+      },
+      {
+        "name": "Wall Plate",
+        "price": 1.09,
+        "vat": "A"
+      },
+      {
+        "name": "Electrical Socket",
+        "price": 3.79,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Home Décor",
+    "items": [
+      {
+        "name": "Mini Succulent Plant",
+        "price": 3.99,
+        "vat": "B"
+      },
+      {
+        "name": "Ceramic Tea Light Holder",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "Decorative Pebbles - 500g",
+        "price": 1.99,
+        "vat": "C"
+      },
+      {
+        "name": "Wooden Picture Frame",
+        "price": 4.79,
+        "vat": "A"
+      },
+      {
+        "name": "Wall Hanging Planter",
+        "price": 5.50,
+        "vat": "B"
+      },
+      {
+        "name": "Cotton Throw Pillow Cover",
+        "price": 4.25,
+        "vat": "A"
+      },
+      {
+        "name": "Bamboo Coaster Set",
+        "price": 3.69,
+        "vat": "A"
+      },
+      {
+        "name": "Patterned Fabric Bunting",
+        "price": 2.95,
+        "vat": "B"
+      },
+      {
+        "name": "Small Wicker Basket",
+        "price": 3.15,
+        "vat": "C"
+      },
+      {
+        "name": "Metal Wall Hook",
+        "price": 2.30,
+        "vat": "A"
+      },
+      {
+        "name": "Rustic Candle Holder",
+        "price": 4.10,
+        "vat": "A"
+      },
+      {
+        "name": "Ceramic Plant Pot - 10cm",
+        "price": 3.25,
+        "vat": "B"
+      },
+      {
+        "name": "Felt Table Runner",
+        "price": 5.20,
+        "vat": "A"
+      },
+      {
+        "name": "Glass Vase - Small",
+        "price": 3.79,
+        "vat": "B"
+      },
+      {
+        "name": "Cotton Table Napkin - Set of 4",
+        "price": 4.95,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Outdoor Living",
+    "items": [
+      {
+        "name": "Solar Garden Lights",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Garden Trowel",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Hanging Plant Pot",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Outdoor Thermometer",
+        "price": 4.49,
+        "vat": "B"
+      },
+      {
+        "name": "Herb Plant Markers",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "BBQ Starter Sticks",
+        "price": 0.99,
+        "vat": "C"
+      },
+      {
+        "name": "Garden Twist Tie",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Bird Feeder",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Folding Chair",
+        "price": 9.99,
+        "vat": "B"
+      },
+      {
+        "name": "Plant Watering Globe",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Citronella Candle",
+        "price": 2.29,
+        "vat": "C"
+      },
+      {
+        "name": "Garden Kneeling Pad",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Outdoor Cushion",
+        "price": 7.99,
+        "vat": "B"
+      },
+      {
+        "name": "Garden Gloves",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Plastic Watering Can",
+        "price": 4.49,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Lighting & Fixtures",
+    "items": [
+      {
+        "name": "LED Light Bulb 5W",
+        "price": 2.50,
+        "vat": "A"
+      },
+      {
+        "name": "Battery Operated Fairy Lights",
+        "price": 3.00,
+        "vat": "A"
+      },
+      {
+        "name": "Solar Pathway Lights 2-pack",
+        "price": 6.00,
+        "vat": "B"
+      },
+      {
+        "name": "Clip-on Lamp",
+        "price": 4.50,
+        "vat": "A"
+      },
+      {
+        "name": "Pendant Light Bulb Holder",
+        "price": 5.00,
+        "vat": "A"
+      },
+      {
+        "name": "Motion Sensor Night Light",
+        "price": 4.00,
+        "vat": "B"
+      },
+      {
+        "name": "Ceiling Light Base",
+        "price": 5.50,
+        "vat": "A"
+      },
+      {
+        "name": "Under Cabinet LED Strip Light",
+        "price": 7.00,
+        "vat": "B"
+      },
+      {
+        "name": "Dimmer Switch",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Candle Light Bulb 2-pack",
+        "price": 2.20,
+        "vat": "A"
+      },
+      {
+        "name": "Paper Lantern",
+        "price": 3.40,
+        "vat": "C"
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 8.00,
+        "vat": "A"
+      },
+      {
+        "name": "Magnetic LED Work Light",
+        "price": 5.75,
+        "vat": "B"
+      },
+      {
+        "name": "Flush Mount Light Fixture",
+        "price": 9.00,
+        "vat": "A"
+      },
+      {
+        "name": "Accent Wall Light",
+        "price": 6.50,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Safety Gear",
+    "items": [
+      {
+        "name": "Safety Glasses",
+        "price": 8.99,
+        "vat": "A"
+      },
+      {
+        "name": "Ear Plugs",
+        "price": 2.99,
+        "vat": "B"
+      },
+      {
+        "name": "Work Gloves",
+        "price": 5.49,
+        "vat": "A"
+      },
+      {
+        "name": "Dust Mask 3-Pack",
+        "price": 3.75,
+        "vat": "A"
+      },
+      {
+        "name": "Reflective Vest",
+        "price": 4.50,
+        "vat": "B"
+      },
+      {
+        "name": "Knee Pads",
+        "price": 7.25,
+        "vat": "A"
+      },
+      {
+        "name": "Safety Goggles",
+        "price": 6.99,
+        "vat": "A"
+      },
+      {
+        "name": "Hard Hat",
+        "price": 9.50,
+        "vat": "B"
+      },
+      {
+        "name": "First Aid Kit",
+        "price": 5.99,
+        "vat": "C"
+      },
+      {
+        "name": "High Visibility Tape",
+        "price": 2.25,
+        "vat": "C"
+      },
+      {
+        "name": "Work Apron",
+        "price": 6.49,
+        "vat": "A"
+      },
+      {
+        "name": "Safety Whistle",
+        "price": 1.99,
+        "vat": "B"
+      },
+      {
+        "name": "Face Shield",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Safety Boots",
+        "price": 10.00,
+        "vat": "B"
+      },
+      {
+        "name": "Anti-Slip Sole Covers",
+        "price": 3.99,
+        "vat": "C"
+      }
+    ]
+  }
+]

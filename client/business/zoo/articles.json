@@ -1,0 +1,802 @@
+[
+  {
+    "category": "Exotic Pets",
+    "items": [
+      {
+        "name": "Axolotl",
+        "price": 25,
+        "vat": "B"
+      },
+      {
+        "name": "Fennec Fox",
+        "price": 50,
+        "vat": "A"
+      },
+      {
+        "name": "Sugar Glider",
+        "price": 30,
+        "vat": "B"
+      },
+      {
+        "name": "Hedgehog",
+        "price": 20,
+        "vat": "A"
+      },
+      {
+        "name": "Degu",
+        "price": 15,
+        "vat": "B"
+      },
+      {
+        "name": "Leopard Gecko",
+        "price": 25,
+        "vat": "A"
+      },
+      {
+        "name": "Chinchilla",
+        "price": 45,
+        "vat": "B"
+      },
+      {
+        "name": "Russian Tortoise",
+        "price": 35,
+        "vat": "A"
+      },
+      {
+        "name": "Budgerigar",
+        "price": 10,
+        "vat": "B"
+      },
+      {
+        "name": "Madagascar Hissing Cockroach",
+        "price": 5,
+        "vat": "C"
+      },
+      {
+        "name": "Tarantula",
+        "price": 20,
+        "vat": "A"
+      },
+      {
+        "name": "Hermit Crab",
+        "price": 8,
+        "vat": "C"
+      },
+      {
+        "name": "Fire-Bellied Toad",
+        "price": 10,
+        "vat": "B"
+      },
+      {
+        "name": "Emperor Scorpion",
+        "price": 15,
+        "vat": "A"
+      },
+      {
+        "name": "Albino Corn Snake",
+        "price": 40,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Pet Food",
+    "items": [
+      {
+        "name": "Chompy Chews Dog Treats",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Kitty Krunchies Cat Biscuits",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Birdie Bites",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Fishy Flakes Goldfish Food",
+        "price": 1.30,
+        "vat": "B"
+      },
+      {
+        "name": "Rabbit Munchies",
+        "price": 1.20,
+        "vat": "C"
+      },
+      {
+        "name": "Hamster Hoops",
+        "price": 0.99,
+        "vat": "B"
+      },
+      {
+        "name": "Parrot Nutri Mix",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Gerbil Grain Bowl",
+        "price": 1.49,
+        "vat": "C"
+      },
+      {
+        "name": "Turtle Tidbits",
+        "price": 2.10,
+        "vat": "A"
+      },
+      {
+        "name": "Puppy Power Bites",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Guinea Pig Greens",
+        "price": 2.50,
+        "vat": "C"
+      },
+      {
+        "name": "Kitten Kiblets",
+        "price": 1.75,
+        "vat": "A"
+      },
+      {
+        "name": "Pondfish Pellets",
+        "price": 2.20,
+        "vat": "B"
+      },
+      {
+        "name": "Budgie Breakfast Mix",
+        "price": 1.60,
+        "vat": "C"
+      },
+      {
+        "name": "Chinchilla Chow",
+        "price": 1.80,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Aquariums & Fish",
+    "items": [
+      {
+        "name": "Aquatic Plant Fertilizer",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Fish Tank Cleaner Spray",
+        "price": 4.59,
+        "vat": "B"
+      },
+      {
+        "name": "Small Fish Net",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Fish Food Starter Pack",
+        "price": 5.49,
+        "vat": "B"
+      },
+      {
+        "name": "Air Stone",
+        "price": 2.79,
+        "vat": "A"
+      },
+      {
+        "name": "Aquarium Thermometer",
+        "price": 3.49,
+        "vat": "C"
+      },
+      {
+        "name": "Plastic Aquarium Plant",
+        "price": 2.29,
+        "vat": "A"
+      },
+      {
+        "name": "Fish Tank Scrubber",
+        "price": 4.39,
+        "vat": "B"
+      },
+      {
+        "name": "Aquarium Gravel Scoop",
+        "price": 1.89,
+        "vat": "A"
+      },
+      {
+        "name": "Basic Water Conditioner",
+        "price": 3.19,
+        "vat": "B"
+      },
+      {
+        "name": "Aquarium Divider",
+        "price": 5.99,
+        "vat": "C"
+      },
+      {
+        "name": "Fish Breeder Box",
+        "price": 4.89,
+        "vat": "A"
+      },
+      {
+        "name": "Aquarium Background",
+        "price": 3.79,
+        "vat": "B"
+      },
+      {
+        "name": "Floating Fish Pellets",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Submersible Filter",
+        "price": 5.49,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Reptile Supplies",
+    "items": [
+      {
+        "name": "Eco-Friendly Coconut Shell Hide",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "ReptiSafe Water Conditioner",
+        "price": 3.50,
+        "vat": "B"
+      },
+      {
+        "name": "Compact UVB Bulb",
+        "price": 6.99,
+        "vat": "A"
+      },
+      {
+        "name": "Digital Thermometer Probe",
+        "price": 8.49,
+        "vat": "A"
+      },
+      {
+        "name": "Calcium Powder Supplement",
+        "price": 2.99,
+        "vat": "B"
+      },
+      {
+        "name": "Plant-based Reptile Food",
+        "price": 5.99,
+        "vat": "B"
+      },
+      {
+        "name": "Small Water Dish",
+        "price": 3.99,
+        "vat": "C"
+      },
+      {
+        "name": "Mini Heat Pad",
+        "price": 9.99,
+        "vat": "A"
+      },
+      {
+        "name": "Reptile Carpet Liner",
+        "price": 7.49,
+        "vat": "A"
+      },
+      {
+        "name": "Insect Feeder Dish",
+        "price": 2.50,
+        "vat": "C"
+      },
+      {
+        "name": "Reptile Vine Decor",
+        "price": 4.25,
+        "vat": "A"
+      },
+      {
+        "name": "Hide Tunnel Accessory",
+        "price": 6.50,
+        "vat": "C"
+      },
+      {
+        "name": "Nutritious Dried Worms",
+        "price": 4.75,
+        "vat": "B"
+      },
+      {
+        "name": "Humidity Gauge",
+        "price": 5.49,
+        "vat": "A"
+      },
+      {
+        "name": "Reptile Shedding Aid Spray",
+        "price": 7.99,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Birds & Accessories",
+    "items": [
+      {
+        "name": "Birdseed Mix",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Small Bird Cage",
+        "price": 15.00,
+        "vat": "A"
+      },
+      {
+        "name": "Natural Cuttlefish Bone",
+        "price": 2.00,
+        "vat": "B"
+      },
+      {
+        "name": "Bird Swing",
+        "price": 5.00,
+        "vat": "A"
+      },
+      {
+        "name": "Pecking Toy",
+        "price": 4.00,
+        "vat": "B"
+      },
+      {
+        "name": "Bird Feeder",
+        "price": 6.50,
+        "vat": "A"
+      },
+      {
+        "name": "Bird Ladder",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Water Dispenser",
+        "price": 4.50,
+        "vat": "A"
+      },
+      {
+        "name": "Bird Bath",
+        "price": 7.00,
+        "vat": "A"
+      },
+      {
+        "name": "Nesting Material",
+        "price": 1.50,
+        "vat": "C"
+      },
+      {
+        "name": "Grit Supplement",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Perch Set",
+        "price": 8.00,
+        "vat": "A"
+      },
+      {
+        "name": "Bird Harness",
+        "price": 9.50,
+        "vat": "A"
+      },
+      {
+        "name": "Vitamin Drops",
+        "price": 2.50,
+        "vat": "B"
+      },
+      {
+        "name": "Thermometer for Aviaries",
+        "price": 5.50,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Small Mammals",
+    "items": [
+      {
+        "name": "Hamster Wheel",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Guinea Pig Snack Pack",
+        "price": 3.49,
+        "vat": "B"
+      },
+      {
+        "name": "Rabbit Chew Toy",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Small Mammal Cage Liner",
+        "price": 6.50,
+        "vat": "B"
+      },
+      {
+        "name": "Hamster Maze",
+        "price": 8.25,
+        "vat": "A"
+      },
+      {
+        "name": "Water Bottle for Small Pets",
+        "price": 4.75,
+        "vat": "C"
+      },
+      {
+        "name": "Wooden Chew Sticks",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Small Pet Food Bowl",
+        "price": 3.95,
+        "vat": "C"
+      },
+      {
+        "name": "Guinea Pig Hideout",
+        "price": 9.99,
+        "vat": "B"
+      },
+      {
+        "name": "Rabbit Bedding",
+        "price": 7.49,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Hay Feeder",
+        "price": 4.20,
+        "vat": "A"
+      },
+      {
+        "name": "Hamster Treat Mix",
+        "price": 2.25,
+        "vat": "B"
+      },
+      {
+        "name": "Small Animal Carrier",
+        "price": 11.99,
+        "vat": "A"
+      },
+      {
+        "name": "Guinea Pig Grooming Brush",
+        "price": 3.60,
+        "vat": "C"
+      },
+      {
+        "name": "Rabbit Food Mix",
+        "price": 5.50,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Pet Toys & Enrichment",
+    "items": [
+      {
+        "name": "Squeaky Rubber Ball",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Catnip Mouse Toy",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Chew Rope Toy",
+        "price": 3.25,
+        "vat": "A"
+      },
+      {
+        "name": "Interactive Feather Wand",
+        "price": 4.99,
+        "vat": "B"
+      },
+      {
+        "name": "Crinkle Tunnel",
+        "price": 5.50,
+        "vat": "A"
+      },
+      {
+        "name": "Rubber Tug Toy",
+        "price": 3.75,
+        "vat": "A"
+      },
+      {
+        "name": "Laser Pointer",
+        "price": 2.99,
+        "vat": "C"
+      },
+      {
+        "name": "Pet Puzzle Toy",
+        "price": 4.50,
+        "vat": "B"
+      },
+      {
+        "name": "Sisal Ball",
+        "price": 1.99,
+        "vat": "B"
+      },
+      {
+        "name": "Cat Tunnel",
+        "price": 3.99,
+        "vat": "C"
+      },
+      {
+        "name": "Tennis Ball 3-Pack",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "Bird Swing Perch",
+        "price": 3.99,
+        "vat": "B"
+      },
+      {
+        "name": "Bamboo Chew Sticks",
+        "price": 1.29,
+        "vat": "C"
+      },
+      {
+        "name": "Plush Squeak Toy",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Fleece Tug Toy",
+        "price": 2.75,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Pet Health & Wellness",
+    "items": [
+      {
+        "name": "Dental Chew Stick",
+        "price": 2.99,
+        "vat": "B"
+      },
+      {
+        "name": "Flea Collar",
+        "price": 4.49,
+        "vat": "A"
+      },
+      {
+        "name": "Calming Spray",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Vitamin Supplement",
+        "price": 3.75,
+        "vat": "B"
+      },
+      {
+        "name": "Ear Cleaning Solution",
+        "price": 2.50,
+        "vat": "B"
+      },
+      {
+        "name": "Paw Balm",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Joint Support Treats",
+        "price": 4.25,
+        "vat": "B"
+      },
+      {
+        "name": "Digestive Aid Powder",
+        "price": 5.50,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Shampoo",
+        "price": 4.79,
+        "vat": "A"
+      },
+      {
+        "name": "Tear Stain Remover",
+        "price": 2.89,
+        "vat": "B"
+      },
+      {
+        "name": "Hot Spot Spray",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Toothpaste",
+        "price": 2.69,
+        "vat": "B"
+      },
+      {
+        "name": "Allergy Relief Tablets",
+        "price": 5.19,
+        "vat": "B"
+      },
+      {
+        "name": "Probiotic Chews",
+        "price": 4.59,
+        "vat": "A"
+      },
+      {
+        "name": "Skin & Coat Oil",
+        "price": 3.29,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Grooming & Care Products",
+    "items": [
+      {
+        "name": "Pet Shampoo",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Flea Comb",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Nail Clippers",
+        "price": 5.25,
+        "vat": "B"
+      },
+      {
+        "name": "Ear Cleaner",
+        "price": 2.79,
+        "vat": "C"
+      },
+      {
+        "name": "Dental Chews",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Wipes",
+        "price": 2.50,
+        "vat": "B"
+      },
+      {
+        "name": "Tick Remover",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Cologne",
+        "price": 4.45,
+        "vat": "B"
+      },
+      {
+        "name": "Tear Stain Remover",
+        "price": 5.29,
+        "vat": "C"
+      },
+      {
+        "name": "Brush Set",
+        "price": 4.75,
+        "vat": "A"
+      },
+      {
+        "name": "Bath Glove",
+        "price": 3.20,
+        "vat": "B"
+      },
+      {
+        "name": "Paw Balm",
+        "price": 2.99,
+        "vat": "C"
+      },
+      {
+        "name": "Lint Roller",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Conditioner",
+        "price": 3.89,
+        "vat": "B"
+      },
+      {
+        "name": "Waterless Shampoo",
+        "price": 5.00,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Training & Behavior Tools",
+    "items": [
+      {
+        "name": "Clicker Training Tool",
+        "price": 4.99,
+        "vat": "A"
+      },
+      {
+        "name": "Puppy Training Pads",
+        "price": 9.99,
+        "vat": "B"
+      },
+      {
+        "name": "Dog Whistle",
+        "price": 2.50,
+        "vat": "C"
+      },
+      {
+        "name": "Cat Training Bell",
+        "price": 3.75,
+        "vat": "A"
+      },
+      {
+        "name": "Pet Training Stick",
+        "price": 5.20,
+        "vat": "B"
+      },
+      {
+        "name": "Training Treat Pouch",
+        "price": 6.80,
+        "vat": "A"
+      },
+      {
+        "name": "Eco-Friendly Training Clicker",
+        "price": 4.00,
+        "vat": "C"
+      },
+      {
+        "name": "Dog Behavior Spray",
+        "price": 7.25,
+        "vat": "B"
+      },
+      {
+        "name": "Puppy Chew Deterrent",
+        "price": 5.99,
+        "vat": "A"
+      },
+      {
+        "name": "Cat Deterring Mat",
+        "price": 6.50,
+        "vat": "B"
+      },
+      {
+        "name": "Bird Training Perch",
+        "price": 8.30,
+        "vat": "C"
+      },
+      {
+        "name": "Pet Training Door Bells",
+        "price": 7.75,
+        "vat": "A"
+      },
+      {
+        "name": "Noise Reducing Training Mat",
+        "price": 9.60,
+        "vat": "B"
+      },
+      {
+        "name": "Dog Training Dumbbell",
+        "price": 3.99,
+        "vat": "C"
+      },
+      {
+        "name": "Pet Training Whistle Set",
+        "price": 5.50,
+        "vat": "A"
+      }
+    ]
+  }
+]

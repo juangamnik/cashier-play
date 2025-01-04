@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitale Kasse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="numpad-container" id="numpad-container">
+    <button class="burger-menu-button" id="burger-menu-button">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </button>
+    
+    <ul class="burger-menu-list" id="burger-menu-list">
+        <li class="burger-menu-item" data-action="item1">Lade...</li>
+    </ul>    
+
+    <div class="numpad" id="numpad">
+        <div class="numpad-display" id="numpad-display"></div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>0</button>
+        <button class="multiply">x</button>
+        <button class="enter">&#9166;</button>
+        <button class="clear" id="clear-numpad" title="Artikel zurücksetzen">&#9003;</button>
+    </div>
+</div>
+
+<div class="receipt-container">
+    <div class="receipt" id="receipt">
+        <div class="receipt-header" id="receipt-header">
+            
+        </div>
+    </div>
+</div>
+
+<div class="articles-container">
+    <!-- Suchfeld über der Artikelliste -->
+    <div class="search-container">
+        <button id="expand-collapse-all">⊖</button>
+        <input type="text" class="search-input" placeholder="Artikel suchen..." id="search-input">
+        <button class="clear" id="clear-search" title="Suche zurücksetzen">
+            &#9003;
+        </button>
+    </div>
+
+    <div class="articles-table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="AN" title="Artikelnummer">AN</th>
+                    <th class="Bezeichnung">Bezeichnung</th>
+                    <th class="Preis" title="Bruttopreis">Preis</th>
+                    <th class="S" title="Mehrwertsteuer">S</th>
+                </tr>
+            </thead>
+            <tbody id="articles-table-body">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>

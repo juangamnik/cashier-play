@@ -1,0 +1,802 @@
+[
+  {
+    "category": "Pasta",
+    "items": [
+      {
+        "name": "Spaghetti Aglio e Olio",
+        "price": 4.5,
+        "vat": "B"
+      },
+      {
+        "name": "Penne Arrabbiata",
+        "price": 5.0,
+        "vat": "B"
+      },
+      {
+        "name": "Fusilli al Pesto",
+        "price": 5.5,
+        "vat": "B"
+      },
+      {
+        "name": "Macaroni Cheese",
+        "price": 6.0,
+        "vat": "A"
+      },
+      {
+        "name": "Rigatoni al Pomodoro",
+        "price": 4.8,
+        "vat": "C"
+      },
+      {
+        "name": "Linguine Carbonara",
+        "price": 5.2,
+        "vat": "B"
+      },
+      {
+        "name": "Tagliatelle Alfredo",
+        "price": 6.0,
+        "vat": "A"
+      },
+      {
+        "name": "Fettuccine Bolognese",
+        "price": 5.9,
+        "vat": "A"
+      },
+      {
+        "name": "Orzo Primavera",
+        "price": 4.7,
+        "vat": "C"
+      },
+      {
+        "name": "Spaghetti Cacio e Pepe",
+        "price": 4.9,
+        "vat": "B"
+      },
+      {
+        "name": "Lasagna Roll-Ups",
+        "price": 6.5,
+        "vat": "A"
+      },
+      {
+        "name": "Gnocchi Sorrentina",
+        "price": 5.8,
+        "vat": "A"
+      },
+      {
+        "name": "Tortellini in Brodo",
+        "price": 5.4,
+        "vat": "B"
+      },
+      {
+        "name": "Ravioli di Ricotta",
+        "price": 6.2,
+        "vat": "A"
+      },
+      {
+        "name": "Cannelloni Spinach Ricotta",
+        "price": 6.0,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Pizza",
+    "items": [
+      {
+        "name": "Margherita",
+        "price": 5.99,
+        "vat": "B"
+      },
+      {
+        "name": "Pepperoni",
+        "price": 6.49,
+        "vat": "A"
+      },
+      {
+        "name": "Funghi",
+        "price": 6.09,
+        "vat": "B"
+      },
+      {
+        "name": "Hawaiian",
+        "price": 6.59,
+        "vat": "A"
+      },
+      {
+        "name": "Vegetarian",
+        "price": 5.79,
+        "vat": "C"
+      },
+      {
+        "name": "Diavola",
+        "price": 6.29,
+        "vat": "A"
+      },
+      {
+        "name": "Quattro Formaggi",
+        "price": 6.99,
+        "vat": "B"
+      },
+      {
+        "name": "Capricciosa",
+        "price": 6.19,
+        "vat": "A"
+      },
+      {
+        "name": "Tonno",
+        "price": 6.39,
+        "vat": "B"
+      },
+      {
+        "name": "Prosciutto",
+        "price": 6.29,
+        "vat": "B"
+      },
+      {
+        "name": "Siciliana",
+        "price": 5.89,
+        "vat": "C"
+      },
+      {
+        "name": "Boscaiola",
+        "price": 6.79,
+        "vat": "A"
+      },
+      {
+        "name": "Calzone",
+        "price": 5.99,
+        "vat": "B"
+      },
+      {
+        "name": "Marinara",
+        "price": 5.49,
+        "vat": "B"
+      },
+      {
+        "name": "Napoli",
+        "price": 5.59,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Paninis",
+    "items": [
+      {
+        "name": "Caprese Panini",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Prosciutto Panini",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Veggie Delight Panini",
+        "price": 3.75,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Pesto Panini",
+        "price": 4.25,
+        "vat": "A"
+      },
+      {
+        "name": "Mozzarella Panini",
+        "price": 3.40,
+        "vat": "B"
+      },
+      {
+        "name": "Salami Panini",
+        "price": 3.80,
+        "vat": "A"
+      },
+      {
+        "name": "Tuna Melt Panini",
+        "price": 4.20,
+        "vat": "B"
+      },
+      {
+        "name": "Eggplant Parm Panini",
+        "price": 3.90,
+        "vat": "A"
+      },
+      {
+        "name": "Four Cheese Panini",
+        "price": 3.60,
+        "vat": "C"
+      },
+      {
+        "name": "Basil Tomato Panini",
+        "price": 3.30,
+        "vat": "B"
+      },
+      {
+        "name": "Spinach Artichoke Panini",
+        "price": 4.10,
+        "vat": "A"
+      },
+      {
+        "name": "Roasted Bell Pepper Panini",
+        "price": 3.55,
+        "vat": "B"
+      },
+      {
+        "name": "Meatball Panini",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Sicilian Panini",
+        "price": 3.85,
+        "vat": "C"
+      },
+      {
+        "name": "Classic Ham and Cheese Panini",
+        "price": 3.70,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Salads",
+    "items": [
+      {
+        "name": "Caprese Salad",
+        "price": 5.50,
+        "vat": "A"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 4.95,
+        "vat": "A"
+      },
+      {
+        "name": "Panzanella Salad",
+        "price": 4.50,
+        "vat": "B"
+      },
+      {
+        "name": "Insalata di Riso",
+        "price": 5.00,
+        "vat": "B"
+      },
+      {
+        "name": "Tricolore Salad",
+        "price": 5.75,
+        "vat": "A"
+      },
+      {
+        "name": "Cucumber Salad",
+        "price": 3.95,
+        "vat": "C"
+      },
+      {
+        "name": "Tuna Salad",
+        "price": 5.25,
+        "vat": "B"
+      },
+      {
+        "name": "Chickpea Salad",
+        "price": 4.80,
+        "vat": "C"
+      },
+      {
+        "name": "Rocket Salad",
+        "price": 4.70,
+        "vat": "A"
+      },
+      {
+        "name": "Spinach Salad",
+        "price": 4.90,
+        "vat": "B"
+      },
+      {
+        "name": "Orzo Salad",
+        "price": 5.00,
+        "vat": "C"
+      },
+      {
+        "name": "Mixed Green Salad",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Lentil Salad",
+        "price": 4.50,
+        "vat": "B"
+      },
+      {
+        "name": "Tomato Basil Salad",
+        "price": 3.95,
+        "vat": "A"
+      },
+      {
+        "name": "Fennel Salad",
+        "price": 4.25,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Desserts",
+    "items": [
+      {
+        "name": "Tiramisu",
+        "price": 3.50,
+        "vat": "B"
+      },
+      {
+        "name": "Panna Cotta",
+        "price": 2.00,
+        "vat": "B"
+      },
+      {
+        "name": "Gelato Scoop",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Cannoli",
+        "price": 2.50,
+        "vat": "B"
+      },
+      {
+        "name": "Affogato",
+        "price": 2.75,
+        "vat": "C"
+      },
+      {
+        "name": "Zabaione",
+        "price": 3.00,
+        "vat": "A"
+      },
+      {
+        "name": "Biscotti",
+        "price": 1.25,
+        "vat": "B"
+      },
+      {
+        "name": "Ricotta Cheesecake",
+        "price": 3.25,
+        "vat": "A"
+      },
+      {
+        "name": "Amaretti",
+        "price": 1.75,
+        "vat": "C"
+      },
+      {
+        "name": "Tartufo",
+        "price": 2.80,
+        "vat": "B"
+      },
+      {
+        "name": "Sfogliatella",
+        "price": 2.40,
+        "vat": "A"
+      },
+      {
+        "name": "Semifreddo",
+        "price": 3.10,
+        "vat": "C"
+      },
+      {
+        "name": "Baba au Rhum",
+        "price": 2.60,
+        "vat": "B"
+      },
+      {
+        "name": "Zeppole",
+        "price": 2.35,
+        "vat": "A"
+      },
+      {
+        "name": "Pastiera",
+        "price": 3.45,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Beverages",
+    "items": [
+      {
+        "name": "Espresso",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Macchiato",
+        "price": 1.70,
+        "vat": "A"
+      },
+      {
+        "name": "Latte",
+        "price": 2.00,
+        "vat": "A"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 2.20,
+        "vat": "A"
+      },
+      {
+        "name": "Americano",
+        "price": 1.80,
+        "vat": "A"
+      },
+      {
+        "name": "Limonata",
+        "price": 1.20,
+        "vat": "B"
+      },
+      {
+        "name": "Chinotto",
+        "price": 1.30,
+        "vat": "B"
+      },
+      {
+        "name": "San Pellegrino",
+        "price": 1.50,
+        "vat": "B"
+      },
+      {
+        "name": "Fanta",
+        "price": 1.10,
+        "vat": "B"
+      },
+      {
+        "name": "Iced Tea",
+        "price": 1.40,
+        "vat": "B"
+      },
+      {
+        "name": "Acqua Panna",
+        "price": 0.90,
+        "vat": "C"
+      },
+      {
+        "name": "Mineral Water",
+        "price": 0.80,
+        "vat": "C"
+      },
+      {
+        "name": "Sparkling Water",
+        "price": 1.00,
+        "vat": "C"
+      },
+      {
+        "name": "Herbal Tea",
+        "price": 1.60,
+        "vat": "A"
+      },
+      {
+        "name": "Affogato",
+        "price": 2.50,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Appetizers",
+    "items": [
+      {
+        "name": "Bruschetta",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Garlic Bread",
+        "price": 2.50,
+        "vat": "B"
+      },
+      {
+        "name": "Caprese Skewers",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Focaccia",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Marinated Olives",
+        "price": 2.00,
+        "vat": "C"
+      },
+      {
+        "name": "Stuffed Mushrooms",
+        "price": 3.75,
+        "vat": "A"
+      },
+      {
+        "name": "Fried Mozzarella Sticks",
+        "price": 3.50,
+        "vat": "A"
+      },
+      {
+        "name": "Arancini",
+        "price": 4.50,
+        "vat": "B"
+      },
+      {
+        "name": "Antipasto Platter",
+        "price": 5.00,
+        "vat": "C"
+      },
+      {
+        "name": "Mini Meatballs",
+        "price": 3.25,
+        "vat": "B"
+      },
+      {
+        "name": "Baked Zucchini Chips",
+        "price": 2.75,
+        "vat": "A"
+      },
+      {
+        "name": "Parmesan Garlic Wings",
+        "price": 4.25,
+        "vat": "B"
+      },
+      {
+        "name": "Prosciutto Wrapped Melon",
+        "price": 4.00,
+        "vat": "C"
+      },
+      {
+        "name": "Tomato Basil Soup Cup",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Spinach Artichoke Dip",
+        "price": 4.75,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Soups",
+    "items": [
+      {
+        "name": "Minestrone",
+        "price": 3.5,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Pomodoro",
+        "price": 3.0,
+        "vat": "B"
+      },
+      {
+        "name": "Stracciatella",
+        "price": 4.0,
+        "vat": "A"
+      },
+      {
+        "name": "Pasta e Fagioli",
+        "price": 3.8,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Cipolle",
+        "price": 3.2,
+        "vat": "C"
+      },
+      {
+        "name": "Zuppa Toscana",
+        "price": 3.9,
+        "vat": "A"
+      },
+      {
+        "name": "Zuppa di Lenticchie",
+        "price": 3.6,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Verdure",
+        "price": 3.3,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Aglio",
+        "price": 2.8,
+        "vat": "C"
+      },
+      {
+        "name": "Zuppa con Ceci",
+        "price": 3.7,
+        "vat": "A"
+      },
+      {
+        "name": "Zuppa di Patate",
+        "price": 3.4,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Carciofi",
+        "price": 3.9,
+        "vat": "A"
+      },
+      {
+        "name": "Zuppa di Broccoli",
+        "price": 3.5,
+        "vat": "C"
+      },
+      {
+        "name": "Zuppa di Zucca",
+        "price": 3.1,
+        "vat": "B"
+      },
+      {
+        "name": "Zuppa di Fagioli",
+        "price": 3.0,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Specialties",
+    "items": [
+      {
+        "name": "Garlic Bread",
+        "price": 2.50,
+        "vat": "A"
+      },
+      {
+        "name": "Bruschetta",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Mozzarella Sticks",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Arancini",
+        "price": 3.50,
+        "vat": "B"
+      },
+      {
+        "name": "Focaccia",
+        "price": 3.00,
+        "vat": "A"
+      },
+      {
+        "name": "Marinated Olives",
+        "price": 2.00,
+        "vat": "C"
+      },
+      {
+        "name": "Caprese Salad Cup",
+        "price": 3.50,
+        "vat": "B"
+      },
+      {
+        "name": "Stuffed Mushrooms",
+        "price": 4.00,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Calzones",
+        "price": 3.50,
+        "vat": "B"
+      },
+      {
+        "name": "Panzerotti",
+        "price": 3.00,
+        "vat": "A"
+      },
+      {
+        "name": "Sun-Dried Tomato Pesto Dip",
+        "price": 2.50,
+        "vat": "C"
+      },
+      {
+        "name": "Zucchini Fritti",
+        "price": 3.00,
+        "vat": "B"
+      },
+      {
+        "name": "Olive Tapenade",
+        "price": 2.50,
+        "vat": "A"
+      },
+      {
+        "name": "Grissini (Breadsticks)",
+        "price": 2.00,
+        "vat": "C"
+      },
+      {
+        "name": "Polenta Fries",
+        "price": 3.50,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Vegan Options",
+    "items": [
+      {
+        "name": "Vegan Margherita Pizza Slice",
+        "price": 3.5,
+        "vat": "A"
+      },
+      {
+        "name": "Grilled Vegetable Panini",
+        "price": 4.0,
+        "vat": "B"
+      },
+      {
+        "name": "Vegan Caprese Salad",
+        "price": 2.8,
+        "vat": "B"
+      },
+      {
+        "name": "Vegan Pesto Pasta",
+        "price": 5.0,
+        "vat": "A"
+      },
+      {
+        "name": "Chickpea Fritters",
+        "price": 2.5,
+        "vat": "B"
+      },
+      {
+        "name": "Vegan Minestrone Soup",
+        "price": 3.0,
+        "vat": "B"
+      },
+      {
+        "name": "Spinach and Tofu Ravioli",
+        "price": 4.5,
+        "vat": "A"
+      },
+      {
+        "name": "Tomato Bruschetta",
+        "price": 2.0,
+        "vat": "C"
+      },
+      {
+        "name": "Cashew Alfredo Spaghetti",
+        "price": 4.2,
+        "vat": "A"
+      },
+      {
+        "name": "Vegan Caesar Salad",
+        "price": 3.6,
+        "vat": "B"
+      },
+      {
+        "name": "Polenta Fries",
+        "price": 3.2,
+        "vat": "A"
+      },
+      {
+        "name": "Eggplant Parmigiana",
+        "price": 4.8,
+        "vat": "B"
+      },
+      {
+        "name": "Vegan Tiramisu",
+        "price": 3.9,
+        "vat": "A"
+      },
+      {
+        "name": "Mushroom Risotto",
+        "price": 5.0,
+        "vat": "A"
+      },
+      {
+        "name": "Vegan Garlic Bread",
+        "price": 2.3,
+        "vat": "C"
+      }
+    ]
+  }
+]

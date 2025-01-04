@@ -1,0 +1,6 @@
+{
+    "name": "Discounter",
+    "path": "retail",
+    "articles": "articles.json",
+    "header": "header.svg"
+  }

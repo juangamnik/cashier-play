@@ -1,0 +1,802 @@
+[
+  {
+    "category": "Burgers",
+    "items": [
+      {
+        "name": "Classic Mini Burger",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Cheesy Bite Burger",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Snack Burger",
+        "price": 2.29,
+        "vat": "A"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": 1.89,
+        "vat": "B"
+      },
+      {
+        "name": "Junior Cheese Burger",
+        "price": 2.19,
+        "vat": "A"
+      },
+      {
+        "name": "Spicy Crunch Burger",
+        "price": 2.69,
+        "vat": "C"
+      },
+      {
+        "name": "BBQ Mini Burger",
+        "price": 2.59,
+        "vat": "A"
+      },
+      {
+        "name": "Fishy Bite Burger",
+        "price": 2.39,
+        "vat": "B"
+      },
+      {
+        "name": "Bacon Jr. Burger",
+        "price": 2.79,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Double Decker",
+        "price": 2.99,
+        "vat": "C"
+      },
+      {
+        "name": "Chili Cheese Burger",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Classic Slider",
+        "price": 1.79,
+        "vat": "A"
+      },
+      {
+        "name": "Mushroom Melt Burger",
+        "price": 2.59,
+        "vat": "C"
+      },
+      {
+        "name": "Ranch Snack Burger",
+        "price": 2.29,
+        "vat": "A"
+      },
+      {
+        "name": "Crispy Mini Patty",
+        "price": 1.99,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Chicken",
+    "items": [
+      {
+        "name": "Chicken Nuggets (4 pcs)",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Spicy Chicken Wings (5 pcs)",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Grilled Chicken Sandwich",
+        "price": 3.99,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Slider",
+        "price": 1.49,
+        "vat": "A"
+      },
+      {
+        "name": "Chicken Wrap",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "Chicken Salad",
+        "price": 2.99,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Popcorn",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "BBQ Chicken Wing (1 pc)",
+        "price": 0.89,
+        "vat": "A"
+      },
+      {
+        "name": "Chicken Strips (3 pcs)",
+        "price": 3.25,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Drumstick (1 pc)",
+        "price": 1.29,
+        "vat": "A"
+      },
+      {
+        "name": "Chicken Quesadilla",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Chicken Burger",
+        "price": 1.79,
+        "vat": "B"
+      },
+      {
+        "name": "Chicken Taco",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Crispy Chicken Bites",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "Chicken Pita Pocket",
+        "price": 2.75,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Fries",
+    "items": [
+      {
+        "name": "Classic Fries",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Curly Fries",
+        "price": 1.70,
+        "vat": "B"
+      },
+      {
+        "name": "Waffle Fries",
+        "price": 1.80,
+        "vat": "C"
+      },
+      {
+        "name": "Sweet Potato Fries",
+        "price": 1.90,
+        "vat": "B"
+      },
+      {
+        "name": "Cajun Fries",
+        "price": 1.60,
+        "vat": "A"
+      },
+      {
+        "name": "Garlic Parmesan Fries",
+        "price": 2.00,
+        "vat": "B"
+      },
+      {
+        "name": "Truffle Fries",
+        "price": 2.10,
+        "vat": "A"
+      },
+      {
+        "name": "Cheese Fries",
+        "price": 1.80,
+        "vat": "C"
+      },
+      {
+        "name": "Bacon Cheese Fries",
+        "price": 2.20,
+        "vat": "A"
+      },
+      {
+        "name": "Chili Cheese Fries",
+        "price": 2.30,
+        "vat": "B"
+      },
+      {
+        "name": "Veggie Fries",
+        "price": 1.70,
+        "vat": "C"
+      },
+      {
+        "name": "Onion Fries",
+        "price": 1.50,
+        "vat": "B"
+      },
+      {
+        "name": "Spicy Fries",
+        "price": 1.60,
+        "vat": "A"
+      },
+      {
+        "name": "Tater Tots",
+        "price": 1.80,
+        "vat": "C"
+      },
+      {
+        "name": "Steak Fries",
+        "price": 1.90,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Beverages",
+    "items": [
+      {
+        "name": "Small Cola",
+        "price": 1.00,
+        "vat": "A"
+      },
+      {
+        "name": "Small Lemonade",
+        "price": 1.00,
+        "vat": "A"
+      },
+      {
+        "name": "Small Iced Tea",
+        "price": 1.20,
+        "vat": "A"
+      },
+      {
+        "name": "Small Coffee",
+        "price": 0.80,
+        "vat": "B"
+      },
+      {
+        "name": "Espresso Shot",
+        "price": 0.70,
+        "vat": "B"
+      },
+      {
+        "name": "Small Milkshake",
+        "price": 1.50,
+        "vat": "A"
+      },
+      {
+        "name": "Small Mineral Water",
+        "price": 0.90,
+        "vat": "C"
+      },
+      {
+        "name": "Small Orange Juice",
+        "price": 1.30,
+        "vat": "A"
+      },
+      {
+        "name": "Small Apple Juice",
+        "price": 1.20,
+        "vat": "A"
+      },
+      {
+        "name": "Small Hot Chocolate",
+        "price": 1.00,
+        "vat": "B"
+      },
+      {
+        "name": "Small Tea",
+        "price": 0.70,
+        "vat": "B"
+      },
+      {
+        "name": "Small Sparkling Water",
+        "price": 0.90,
+        "vat": "C"
+      },
+      {
+        "name": "Small Diet Cola",
+        "price": 1.00,
+        "vat": "A"
+      },
+      {
+        "name": "Small Fanta",
+        "price": 1.00,
+        "vat": "A"
+      },
+      {
+        "name": "Small Sprite",
+        "price": 1.00,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Desserts",
+    "items": [
+      {
+        "name": "Mini Chocolate Sundae",
+        "price": 1.5,
+        "vat": "A"
+      },
+      {
+        "name": "Small Apple Pie",
+        "price": 0.99,
+        "vat": "B"
+      },
+      {
+        "name": "Vanilla Soft Serve",
+        "price": 1.2,
+        "vat": "A"
+      },
+      {
+        "name": "Chocolate Chip Cookie",
+        "price": 0.75,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Donut",
+        "price": 0.5,
+        "vat": "C"
+      },
+      {
+        "name": "Strawberry Milkshake",
+        "price": 1.8,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Brownie Bite",
+        "price": 1.0,
+        "vat": "B"
+      },
+      {
+        "name": "Fruit Cup",
+        "price": 1.25,
+        "vat": "B"
+      },
+      {
+        "name": "McFlurry Alternative",
+        "price": 1.75,
+        "vat": "A"
+      },
+      {
+        "name": "Cheesecake Bite",
+        "price": 1.3,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Pancakes",
+        "price": 0.9,
+        "vat": "B"
+      },
+      {
+        "name": "Small Chocolate Muffin",
+        "price": 1.15,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Fruit Tart",
+        "price": 0.85,
+        "vat": "B"
+      },
+      {
+        "name": "Caramel Sundae",
+        "price": 1.6,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Ice Cream Sandwich",
+        "price": 1.4,
+        "vat": "B"
+      }
+    ]
+  },
+  {
+    "category": "Salads",
+    "items": [
+      {
+        "name": "Garden Salad",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Greek Salad",
+        "price": 3.19,
+        "vat": "B"
+      },
+      {
+        "name": "Side Salad",
+        "price": 1.79,
+        "vat": "C"
+      },
+      {
+        "name": "Chef's Salad",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Fruit Salad",
+        "price": 2.29,
+        "vat": "B"
+      },
+      {
+        "name": "Coleslaw",
+        "price": 1.59,
+        "vat": "C"
+      },
+      {
+        "name": "Chicken Salad",
+        "price": 3.69,
+        "vat": "A"
+      },
+      {
+        "name": "Mediterranean Salad",
+        "price": 2.89,
+        "vat": "B"
+      },
+      {
+        "name": "Spinach Salad",
+        "price": 2.59,
+        "vat": "A"
+      },
+      {
+        "name": "Quinoa Salad",
+        "price": 3.29,
+        "vat": "B"
+      },
+      {
+        "name": "Cobb Salad",
+        "price": 3.99,
+        "vat": "A"
+      },
+      {
+        "name": "Pasta Salad",
+        "price": 2.79,
+        "vat": "B"
+      },
+      {
+        "name": "Caprese Salad",
+        "price": 2.99,
+        "vat": "C"
+      },
+      {
+        "name": "Waldorf Salad",
+        "price": 3.39,
+        "vat": "A"
+      }
+    ]
+  },
+  {
+    "category": "Wraps",
+    "items": [
+      {
+        "name": "Classic Chicken Wrap",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Veggie Delight Wrap",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Spicy Beef Wrap",
+        "price": 3.29,
+        "vat": "A"
+      },
+      {
+        "name": "Turkey & Cheese Wrap",
+        "price": 2.79,
+        "vat": "B"
+      },
+      {
+        "name": "BBQ Pulled Pork Wrap",
+        "price": 3.19,
+        "vat": "A"
+      },
+      {
+        "name": "Mediterranean Falafel Wrap",
+        "price": 2.59,
+        "vat": "C"
+      },
+      {
+        "name": "Grilled Veggie Wrap",
+        "price": 2.29,
+        "vat": "B"
+      },
+      {
+        "name": "Buffalo Chicken Wrap",
+        "price": 3.39,
+        "vat": "A"
+      },
+      {
+        "name": "Hummus & Veggie Wrap",
+        "price": 2.19,
+        "vat": "C"
+      },
+      {
+        "name": "Chipotle Steak Wrap",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Caesar Chicken Wrap",
+        "price": 2.99,
+        "vat": "B"
+      },
+      {
+        "name": "Southwest Black Bean Wrap",
+        "price": 2.89,
+        "vat": "C"
+      },
+      {
+        "name": "Teriyaki Tofu Wrap",
+        "price": 2.69,
+        "vat": "B"
+      },
+      {
+        "name": "Sweet Chili Chicken Wrap",
+        "price": 3.09,
+        "vat": "A"
+      },
+      {
+        "name": "Egg Roll Wrap",
+        "price": 2.39,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Breakfast",
+    "items": [
+      {
+        "name": "Egg Muffin",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Sausage Biscuit",
+        "price": 1.49,
+        "vat": "A"
+      },
+      {
+        "name": "Hash Brown",
+        "price": 0.99,
+        "vat": "B"
+      },
+      {
+        "name": "Pancake Stack",
+        "price": 2.49,
+        "vat": "A"
+      },
+      {
+        "name": "French Toast Sticks",
+        "price": 1.89,
+        "vat": "A"
+      },
+      {
+        "name": "Oatmeal Cup",
+        "price": 1.29,
+        "vat": "B"
+      },
+      {
+        "name": "Breakfast Burrito",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Fruit & Yogurt Parfait",
+        "price": 1.69,
+        "vat": "B"
+      },
+      {
+        "name": "Toast with Jam",
+        "price": 0.79,
+        "vat": "C"
+      },
+      {
+        "name": "Bagel with Cream Cheese",
+        "price": 1.39,
+        "vat": "A"
+      },
+      {
+        "name": "Chocolate Croissant",
+        "price": 1.89,
+        "vat": "A"
+      },
+      {
+        "name": "Bacon & Egg Wrap",
+        "price": 2.19,
+        "vat": "A"
+      },
+      {
+        "name": "Veggie Omelette",
+        "price": 2.29,
+        "vat": "B"
+      },
+      {
+        "name": "Breakfast Sandwich",
+        "price": 1.79,
+        "vat": "A"
+      },
+      {
+        "name": "Granola Bar",
+        "price": 0.99,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Kids Meals",
+    "items": [
+      {
+        "name": "Cheesy Burger",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Chicken Wrap",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Kid's Nacho Box",
+        "price": 1.29,
+        "vat": "C"
+      },
+      {
+        "name": "Small Fries",
+        "price": 0.99,
+        "vat": "A"
+      },
+      {
+        "name": "Fruit Cup",
+        "price": 1.10,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Pizza Bites",
+        "price": 1.79,
+        "vat": "C"
+      },
+      {
+        "name": "Apple Slices",
+        "price": 0.89,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Veggie Wrap",
+        "price": 1.59,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Cheese Sticks",
+        "price": 1.19,
+        "vat": "C"
+      },
+      {
+        "name": "Tiny Tacos",
+        "price": 1.39,
+        "vat": "A"
+      },
+      {
+        "name": "Mini Corn Dog",
+        "price": 1.69,
+        "vat": "B"
+      },
+      {
+        "name": "Tiny Sliders",
+        "price": 1.89,
+        "vat": "C"
+      },
+      {
+        "name": "Mini Pancake Bites",
+        "price": 1.29,
+        "vat": "A"
+      },
+      {
+        "name": "Chocolate Milk",
+        "price": 0.99,
+        "vat": "B"
+      },
+      {
+        "name": "Mini Banana Smoothie",
+        "price": 1.49,
+        "vat": "C"
+      }
+    ]
+  },
+  {
+    "category": "Vegetarian Options",
+    "items": [
+      {
+        "name": "Veggie Burger",
+        "price": 2.99,
+        "vat": "A"
+      },
+      {
+        "name": "Cheese Veggie Wrap",
+        "price": 2.49,
+        "vat": "B"
+      },
+      {
+        "name": "Grilled Cheese Sandwich",
+        "price": 1.99,
+        "vat": "A"
+      },
+      {
+        "name": "Garden Salad",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Veggie Nuggets",
+        "price": 2.89,
+        "vat": "A"
+      },
+      {
+        "name": "Spicy Bean Burger",
+        "price": 3.49,
+        "vat": "A"
+      },
+      {
+        "name": "Classic Fries",
+        "price": 1.29,
+        "vat": "B"
+      },
+      {
+        "name": "Onion Rings",
+        "price": 1.59,
+        "vat": "B"
+      },
+      {
+        "name": "Mushroom Melt",
+        "price": 2.59,
+        "vat": "A"
+      },
+      {
+        "name": "Veggie Taco",
+        "price": 1.99,
+        "vat": "B"
+      },
+      {
+        "name": "Falafel Wrap",
+        "price": 2.79,
+        "vat": "A"
+      },
+      {
+        "name": "Crispy Tofu Bites",
+        "price": 3.19,
+        "vat": "A"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 2.29,
+        "vat": "B"
+      },
+      {
+        "name": "Curly Fries",
+        "price": 1.49,
+        "vat": "B"
+      },
+      {
+        "name": "Veggie Pizza Slice",
+        "price": 2.39,
+        "vat": "A"
+      }
+    ]
+  }
+]

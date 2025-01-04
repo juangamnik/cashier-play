@@ -1,0 +1,6 @@
+{
+    "name": "Fast Food",
+    "path": "fast-food",
+    "articles": "articles.json",
+    "header": "header.svg"
+  }

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artikelübersicht</title>
+  <style>
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.container {
+  margin: 16px auto;
+  max-width: 1200px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 16px;
+  position: relative;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+.header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.header-left img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+.header-title {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+}
+tbody tr td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+tr.category-row td {
+  font-weight: bold;
+  background-color: #e0e0e0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+}
+.barcode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* On print: Disable sticky and enforce header visibility */
+@media print {
+  thead th {
+    position: static;
+    background: #fff;
+  }
+  thead {
+    display: table-header-group !important;
+  }
+  tbody {
+    display: table-row-group;
+    page-break-inside: auto;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div id="headerLeft" class="header-left"></div>
+
+        <h1 id="mainTitle"></h1>
+    </div>
+    
+    <table id="articleTable">
+      <thead>
+        <tr>
+          <th style="width: 20%;">Artikelnummer</th>
+          <th style="width: 40%;">Name</th>
+          <th style="width: 20%;">Preis</th>
+          <th style="width: 20%;">MwSt.</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Script: Read configuration, then read articles, sort them, and create a table. -->
+  <script type="module">
+    import { createCode39Barcode } from '../../modules/barcode.js';
+
+    fetch('./config.json')
+      .then(res => res.json())
+      .then(config => {
+        // Set title
+        const mainTitle = document.getElementById("mainTitle");
+        mainTitle.textContent = config.name || "Artikelübersicht";
+
+        // Display header in the top left (image or text)
+        const headerLeft = document.getElementById("headerLeft");
+        if (config.header) {
+          // Heuristic: If it looks like a filename, display an image; otherwise, display text
+          const isImage = /\.(png|jpe?g|gif|svg)$/i.test(config.header.trim());
+          if (isImage) {
+            const img = document.createElement("img");
+            img.src = config.header;
+            headerLeft.appendChild(img);
+          } else {
+            headerLeft.textContent = config.header;
+          }
+        }
+
+        const articlesPath = config.articles || "./articles.json";
+        return fetch(articlesPath).then(res => res.json());
+      })
+      .then(data => {
+        // data: Array of categories
+        // Sorting: First by category, then by name within each category.
+        data.sort((a, b) => a.category.localeCompare(b.category));
+        data.forEach(cat => {
+          cat.items.sort((x, y) => x.name.localeCompare(y.name));
+        });
+
+        const tbody = document.querySelector("#articleTable tbody");
+        let globalIndex = 1; // auto-increment for IDs
+
+        data.forEach(cat => {
+          const catRow = document.createElement("tr");
+          catRow.classList.add("category-row");
+          const catCell = document.createElement("td");
+          catCell.colSpan = 4;
+          catCell.textContent = cat.category;
+          catRow.appendChild(catCell);
+          tbody.appendChild(catRow);
+
+          cat.items.forEach(item => {
+            const tr = document.createElement("tr");
+
+            // Generate ID (4 digits, zero-padded)
+            const itemId = String(globalIndex).padStart(4, "0");
+            globalIndex++;
+
+            const tdId = document.createElement("td");
+            const barcodeContainer = document.createElement("div");
+            barcodeContainer.classList.add("barcode-container");
+
+            // Generate barcode
+            const svgBarcode = createCode39Barcode(itemId, 30);
+            barcodeContainer.appendChild(svgBarcode);
+
+            // print out number centered beneath the barcode.
+            const numSpan = document.createElement("span");
+            numSpan.textContent = itemId;
+            barcodeContainer.appendChild(numSpan);
+
+            tdId.appendChild(barcodeContainer);
+            tr.appendChild(tdId);
+
+            // Column: Name
+            const tdName = document.createElement("td");
+            tdName.textContent = item.name;
+            tr.appendChild(tdName);
+
+            // Column: Preis
+            const tdPrice = document.createElement("td");
+            tdPrice.textContent = String(item.price);
+            tr.appendChild(tdPrice);
+
+            // Column: vat.
+            const tdVat = document.createElement("td");
+            tdVat.textContent = item.vat;
+            tr.appendChild(tdVat);
+
+            tbody.appendChild(tr);
+          });
+        });
+      })
+      .catch(err => console.error("Fehler beim Laden der Daten oder Konfiguration:", err));
+  </script>
+</body>
+</html>

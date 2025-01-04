@@ -1,0 +1,6 @@
+{
+    "name": "Italiano",
+    "path": "italian",
+    "articles": "articles.json",
+    "header": "header.svg"
+  }

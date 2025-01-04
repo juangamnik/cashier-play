@@ -1,0 +1,6 @@
+{
+    "name": "Mega Zoo",
+    "path": "zoo",
+    "articles": "articles.json",
+    "header": "header.svg"
+  }

@@ -1,0 +1,6 @@
+{
+    "name": "DIY",
+    "path": "diy",
+    "articles": "articles.json",
+    "header": "header.svg"
+  }

@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container,
+.articles-table {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1600px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.mdl-layout-title {
+  font-size: 1.25rem;
+}
+
+#articleForm {
+  width: 100%;
+}
+
+.mdl-textfield {
+  width: 100%;
+}
+
+.mdl-data-table__cell--non-numeric {
+  text-align: left;
+}
+
+/* Centering the buttons in the table */
+.articles-table table td {
+  vertical-align: middle;
+}
+
+/* Adjust label position to avoid overlaps */
+.mdl-textfield__label {
+  transition: all 0.2s ease;
+}
+.mdl-textfield__input:focus ~ .mdl-textfield__label,
+.mdl-textfield__input:not(:placeholder-shown) ~ .mdl-textfield__label {
+  color: #3f51b5; /* Label color on focus */
+  font-size: 0.8rem;
+}
+.mdl-textfield__input {
+  padding-top: 1.5em; /* Space for the label */
+}
+
+/* --- Print view --- */
+@media print {
+  /* Hide everything except the table */
+  .mdl-layout__header,
+  .form-container {
+    display: none !important;
+  }
+
+  /* Table should fill the page */
+  .articles-table {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  /* Repeat table header on every page */
+  thead {
+    display: table-header-group;
+  }
+
+  /* Include footer if available */
+  tfoot {
+    display: table-footer-group;
+  }
+
+  /* Prevent large rows from splitting across pages */
+  tr, img {
+    page-break-inside: avoid;
+  }
+}

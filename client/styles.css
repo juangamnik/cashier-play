@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+/* Anpassung des Burger-Menü-Buttons */
+.burger-menu-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff; /* Gleiche Farbe wie die Numpad-Buttons */
+    border: none;
+    display: flex;
+    flex-direction: column; /* Ändert die Anordnung der Kinder (Striche) von horizontal auf vertikal */
+    justify-content: center; /* Zentriert die Striche vertikal */
+    align-items: center; /* Zentriert die Striche horizontal */
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 100; /* Über andere Inhalte */
+}
+
+.burger-menu-button:active {
+    transform: scale(0.97);
+}
+
+.burger-menu-button.active {
+    outline: 3px solid #6200ee;
+    outline-offset: 4px;
+    border-radius: 50%; /* Vollständig runde Form */
+    box-shadow: 0 0 8px rgba(98, 0, 238, 0.2);
+}
+
+.burger-menu-button:focus {
+    outline: none;
+}
+
+.burger-line {
+    width: 28px; /* Breite der Linien */
+    height: 3px;  /* Höhe der Linien */
+    background-color: #888; /* Ändert die Hintergrundfarbe zu Grau (#888) */
+    border-radius: 2px; /* Abgerundete Ecken */
+    margin: 3px 0; /* Abstand zwischen den Linien */
+    display: block; /* Erzwingt, dass die Linie als Block angezeigt wird */
+}
+
+.burger-menu-list {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.burger-menu-list.active {
+    display: flex;
+}
+
+.burger-menu-item {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.burger-menu-item:hover {
+    background-color: #6200ee;
+    color: #fff;
+}
+
+.burger-menu-item:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Numpad-Bereich */
+.numpad-container {
+    width: 30%;
+    max-width: 400px;
+    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: border 0.2s ease;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto repeat(4, 1fr); /* Eine zusätzliche Zeile für das Display */
+    gap: 10px; /* Abstand der Buttons und des Displays */
+    width: 100%;
+}
+
+.numpad.focus {
+    outline: 3px solid #6200ee; /* Der Abstand wird durch das Outline erreicht */
+    outline-offset: 4px; /* 4 Pixel Abstand zwischen Inhalt und Rahmen */
+    border-radius: 5px; /* Leicht abgerundete Ecken */
+    box-shadow: 0 0 8px rgba(98, 0, 238, 0.2);
+}
+
+/* Anzeigefeld über dem Numpad (Teil des Grids) */
+.numpad-display {
+    grid-column: 1 / -1; /* Über die gesamte Breite der 3 Spalten */
+    text-align: left;
+    font-family: monospace;
+    font-size: 24px; /* Schriftgröße angepasst */
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.numpad button {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.numpad button:active {
+    transform: scale(0.97);
+}
+
+.numpad button:focus {
+    outline: none;
+}
+
+/* Fehlerhighlight für das Enter-Feld */
+.numpad button.enter.error {
+    box-shadow: 0 0 10px 2px red inset;
+}
+
+.ripple-animate {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    animation: ripple-key 0.4s ease-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes ripple-key {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(20);
+        opacity: 0;
+    }
+}
+
+/* Anpassung der Breite des "0"-Buttons */
+.numpad button:nth-child(11) {
+    grid-column: span 2; /* Doppelte Breite */
+}
+
+.numpad .enter {
+    grid-column: span 2;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.numpad .enter:active {
+    background-color: #1e7e34;
+}
+
+.numpad .multiply {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.numpad .multiply:active {
+    background-color: #0056b3;
+}
+
+.numpad .clear {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+.numpad .clear:active {
+    background-color: #e53935;
+}
+
+/* Kassenbon-Bereich */
+.receipt-container {
+    width: 40%;
+    max-width: 500px;
+    height: 100%;
+    border-left: 2px solid #000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.receipt {
+    width: 80mm;
+    max-width: 80mm;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 4mm 4mm 4mm 4mm;
+    transition: all 0.3s ease;
+}
+
+.receipt-header {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.receipt-header pre {
+    font-family: monospace;
+    align-self: stretch;
+    white-space: pre;
+}
+
+.receipt-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.receipt-entry, .receipt-summary {
+    animation: fade-in 0.3s ease;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+
+.receipt-summary {
+    margin-top: 10px;
+    border-top: 1px dashed #000;
+    padding-top: 10px;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Artikeltabelle rechts */
+.articles-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-input {
+    width: 70%;
+    max-width: 400px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #dcdcdc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #6200ee;
+    box-shadow: 0 0 8px rgba(98, 0, 238, 0.2);
+}
+
+.search-container .clear {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container .clear:hover {
+    background-color: #e53935;
+}
+
+.search-container .clear:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 82, 82, 0.4);
+}
+
+.search-container #expand-collapse-all {
+    background-color: #FFD700; /* Goldgelb */
+    border: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container #expand-collapse-all:hover {
+    background-color: #FFC107; /* leicht dunkleres Gelb */
+}
+
+.search-container #expand-collapse-all:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+}
+
+.articles-table-container {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.articles-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.articles-table-container thead {
+    position: sticky;
+    top: 0;
+    background: #e0e0e0;
+    z-index: 2;
+}
+
+.articles-table-container th, 
+.articles-table-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Spaltenbreiten */
+.articles-table-container th.AN, 
+.articles-table-container td.AN {
+    width: 5em;
+}
+
+.articles-table-container th.Preis, 
+.articles-table-container td.Preis {
+    width: 5em;
+}
+
+.articles-table-container th.S, 
+.articles-table-container td.S {
+    width: 40px;
+    text-align: center;
+}
+
+.articles-table-container th.Bezeichnung, 
+.articles-table-container td.Bezeichnung {
+    width: auto;
+}
+
+/* Kategoriezeile mit Symbol und Text */
+.articles-table-container .category-separator td {
+    position: relative; /* Ermöglicht absolute Positionierung des Symbols */
+    background-color: #f7f7f7;
+    font-weight: bold;
+    color: #555;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.1rem;
+    padding: 8px 0;
+    text-align: center; /* Zentriert den Text der Kategorie horizontal */
+}
+
+/* Symbol linksbündig positionieren */
+.articles-table-container .toggle-symbol {
+    position: absolute; /* Absolut positioniert innerhalb der Zelle */
+    left: 8px; /* Abstand vom linken Rand */
+    top: 50%; /* Vertikal zentrieren */
+    transform: translateY(-50%); /* Vertikale Zentrierung ausgleichen */
+    font-size: 1.1rem; /* Gleiche Schriftgröße wie der Text */
+    pointer-events: none; /* Verhindert Einfluss auf die Zentrierung */
+}
+
+/* Unsichtbare Zeilen */
+.articles-table-container .invisible {
+    display: none;
+}
+
+.barcode-overlay {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none; /* Prevent mouse interaction with overlay */
+    min-width: 150px; /* Ensures consistent size */
+}
+
+.barcode-overlay svg {
+    width: 100%;
+    height: auto;
+}
+
+.barcode-article-number {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Zelle mit Artikelnummer positionieren */
+.articles-table-container td.AN {
+    position: relative; /* Ermöglicht Overlay-Positionierung */
+    cursor: pointer; /* Zeigt Interaktivität an */
+}
+
+@media (orientation: portrait) {
+    .burger-menu-button {
+        position: fixed; /* Button bleibt sichtbar, unabhängig vom Scrollen */
+        top: 20px;
+        left: 20px; /* Oder rechts positionieren, wenn links das Numpad ist */
+        z-index: 200; /* Sicherstellen, dass der Button über anderen Elementen liegt */
+    }
+
+    .numpad-container {
+        margin-top: 80px; /* Platz für den Burger-Button schaffen */
+    }
+
+    body {
+        flex-direction: column; /* Bereiche vertikal anordnen */
+        height: auto; /* Erlaubt, dass der Body die Höhe der Inhalte einnimmt */
+        overflow-y: auto; /* Ermöglicht vertikales Scrollen */
+    }
+
+    .numpad-container, 
+    .receipt-container, 
+    .articles-container {
+        width: 100%; /* Bereiche in voller Breite anzeigen */
+        order: initial; /* Optional: Reihenfolge zurücksetzen */
+        height: auto; /* Passt die Höhe der Inhalte dynamisch an */
+    }
+
+    .receipt-container {
+        border-top: 2px solid #000; /* Trennt visuell von anderen Bereichen */
+        border-left: none; /* Entfernt linke Trennlinie */
+    }
+}
+
+@media print {
+    body {
+        display: block;
+    }
+
+    .numpad-container, .articles-container {
+        display: none;
+    }
+
+    .receipt-container {
+        width: 100%;
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+
+    .receipt {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        padding: 0;
+    }
+}
