@@ -164,7 +164,7 @@ The application’s interface is cleanly divided into three primary sections, ea
     - **AN (Article Number)**: Unique identifier for each item.
     - **Description**: Name of the item.
     - **Price**: Price per unit.
-    - **S (Tax Category)**: Indicates the applicable tax rate.
+    - **V (Tax Category)**: Indicates the applicable tax rate.
   - **Purple Border**: Indicates SEARCH mode when filtering items.
 
 ---
