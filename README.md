@@ -189,7 +189,7 @@ The application provides a **dedicated print view** for each shop or business ty
 
 1. **Header**:
    - The top of the page prominently displays the **shop name** (e.g., "Discounter").
-   - A small ASCII representation of a receipt icon is included for visual context.
+   - A small ASCII representation (or SVG) of a receipt icon is included for visual context.
 
 2. **Item Table**:
    - The main section features a structured table with the following columns:
