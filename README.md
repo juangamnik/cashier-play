@@ -221,7 +221,7 @@ The application provides a **dedicated print view** for each shop or business ty
 - Ensure the barcode scanner is configured to match the barcode format used in the print view for seamless operation.
 
 ## Article Management for "The Real Deal"
-<img width="1456" alt="Article Management" src="https://github.com/user-attachments/assets/425f10d5-417d-4946-bf34-8a3c98f74968" />
+<img width="1500" alt="Article Management" src="https://github.com/user-attachments/assets/57c416d7-7bc5-49e1-8e55-ec300e0f5eea" />
 
 The article management interface for the shop "The Real Deal" is a powerful tool for managing inventory. It allows users to add, edit, and delete articles stored in the backend database. The UI is cleanly divided into two sections for ease of use.
 
