@@ -49,13 +49,13 @@ function buildArticlesTable() {
         items.forEach(({ id, name, price, vat }) => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="AN">${id}</td>
-                <td class="Bezeichnung">${name}</td>
-                <td class="Preis">${price.toFixed(2)}</td>
+                <td class="IN">${id}</td>
+                <td class="Description">${name}</td>
+                <td class="Price">${price.toFixed(2)}</td>
                 <td class="S">${vat ? vat : 'A'}</td>
             `;
             
-            const articleCell = row.querySelector('.AN');
+            const articleCell = row.querySelector('.IN');
 
             // Add hover logic for barcode overlay
             articleCell.addEventListener('mouseenter', (event) => {
@@ -66,7 +66,7 @@ function buildArticlesTable() {
 
                     // Add article number below the barcode
                     const articleNumber = document.createElement('div');
-                    articleNumber.textContent = `Artikelnummer: ${id}`;
+                    articleNumber.textContent = `Item Number: ${id}`;
                     articleNumber.classList.add('barcode-article-number');
                     overlay.appendChild(articleNumber);
 

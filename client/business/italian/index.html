@@ -107,10 +107,10 @@ tr.category-row td {
     <table id="articleTable">
       <thead>
         <tr>
-          <th style="width: 20%;">Artikelnummer</th>
+          <th style="width: 20%;">Item Number</th>
           <th style="width: 40%;">Name</th>
-          <th style="width: 20%;">Preis</th>
-          <th style="width: 20%;">MwSt.</th>
+          <th style="width: 20%;">Price</th>
+          <th style="width: 20%;">Vat</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -193,7 +193,7 @@ tr.category-row td {
             tdName.textContent = item.name;
             tr.appendChild(tdName);
 
-            // Column: Preis
+            // Column: Price
             const tdPrice = document.createElement("td");
             tdPrice.textContent = String(item.price);
             tr.appendChild(tdPrice);

@@ -394,13 +394,13 @@ body {
 }
 
 /* Spaltenbreiten */
-.articles-table-container th.AN, 
-.articles-table-container td.AN {
+.articles-table-container th.IN, 
+.articles-table-container td.IN {
     width: 5em;
 }
 
-.articles-table-container th.Preis, 
-.articles-table-container td.Preis {
+.articles-table-container th.Price, 
+.articles-table-container td.Price {
     width: 5em;
 }
 
@@ -410,8 +410,8 @@ body {
     text-align: center;
 }
 
-.articles-table-container th.Bezeichnung, 
-.articles-table-container td.Bezeichnung {
+.articles-table-container th.Description, 
+.articles-table-container td.Description {
     width: auto;
 }
 
